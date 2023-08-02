@@ -6,7 +6,7 @@ import './Alert.module.less';
 const Alert: FC<AlertProps> = (props) => {
   const { type, title, closable, center, closeText, LimeGreen, CoolGray, Goldenrod, Coral } = props;
 
-  const [flag, setFlag] = useState(false);
+  const [falg, setFlag] = useState(false);
 
   const backgroundColor = {
     LimeGreen: 'limegreen',
@@ -28,7 +28,7 @@ const Alert: FC<AlertProps> = (props) => {
 
   return (
     <>
-      {flag ? null : (
+      {falg ? null : (
         <div
           className={AlertStyle}
           style={{

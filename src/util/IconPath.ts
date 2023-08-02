@@ -1,3 +1,4 @@
+// import icon from '../assets/icons'
 function importAllIcons() {
   const icons: any = {};
   const requireIcon = require.context(
@@ -7,8 +8,16 @@ function importAllIcons() {
   );
 
   requireIcon.keys().forEach((filename: any) => {
+
     const iconName: any = filename.replace(/^\.\//, '').replace(/\.(svg|png|jpe?g)$/, '');
-    icons[iconName] = requireIcon(filename);
+    let str = requireIcon(filename);
+    if (str.split('/').length > 3) {
+      str = str.split('/')
+      str.splice(0, 2)
+      str = '/' + str.join('/')
+    }
+    // console.log(str);
+    icons[iconName] = 'https://raw.githubusercontent.com/swown6/ti-lin-react/gh-pages/gh-pages' + str;
   });
   return icons;
 }

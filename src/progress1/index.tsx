@@ -10,10 +10,10 @@ const Prog: React.FC<Progress> = ({
   inside = false,
 }) => {
   const sty = {
-    width: `${percentage}%`,
-    backgroundColor: color,
-    height: `${strokeheight}px`,
-    lineHeight: `${strokeheight}px`,
+    "width": `${percentage}%`,
+    "backgroundColor": color,
+    "height": `${strokeheight}px`,
+    "lineHeight": `${strokeheight}px`,
   };
 
   let progressContent = null;

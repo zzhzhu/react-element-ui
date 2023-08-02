@@ -1,12 +1,12 @@
+export { default as Alert } from './Alert';
 export { default as Avatar } from './Avatar';
 export { default as Backtop } from './Backtop';
-export { default as Breadcrumb } from './Breadcrumb';
+// export { default as Breadcrumb } from './Breadcrumb';
 export { default as Button } from './Button';
 export { default as Card } from './Card';
 export { default as Carousel } from './Carousel/Carousel';
 export { default as CarouselItem } from './Carousel/CarouselItem';
-export { default as CheckboxAll } from './Checkbox/CheckboxAll';
-export { default as CheckboxGroup } from './Checkbox/CheckboxGroup';
+export { default as Checkbox } from './Checkbox';
 export { default as Collapse } from './Collapse';
 export { default as Divider } from './Divider';
 export { default as Dropdown } from './Dropdown';
@@ -21,13 +21,19 @@ export { default as Loading } from './Loading';
 export { default as MessageBox } from './MessageBox';
 export { default as NavMenu } from './NavMenu';
 export { default as Notification } from './Notification';
+export { default as progress1 } from './progress1';
 export { default as PageHeader } from './PageHeader';
 export { default as Pagination } from './Pagination';
+export { default as Pagination1 } from './Pagination1';
 export { default as Popover } from './Popover';
 export { default as Progress } from './Progress';
-export { default as Radio } from './Radio/Radio';
-export { default as RadioGroupButton } from './Radio/RadioGroupButton';
+export { default as Radio } from './Radio';
+export { default as Select } from './Select';
 export { default as Switch } from './Switch';
+export { default as Tab } from './Tab';
 export { default as Table } from './Table';
 export { default as Tabs } from './Tabs/Tabs';
 export { default as TabPane } from './Tabs/TabPane';
+export { default as initfinteScroll1 } from './initfinteScroll1';
+
+
