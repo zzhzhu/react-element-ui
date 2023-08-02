@@ -1,6 +1,8 @@
 import { defineConfig } from 'dumi';
 
 export default defineConfig({
+  base:'./',
+  publicPath:'./',
   // 网站标题名
   title: 'react-element',
   // 网站标题旁边图片
